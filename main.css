@@ -1,0 +1,530 @@
+@import url(SpaceGrotesk-Bold.ttf);
+
+*{
+    margin: 0%;
+    padding: 0.5% 3%;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/********** NAV SECTION**********/
+/********** NAV SECTION**********/
+/********** NAV SECTION**********/
+.navbar-brand{
+    font-family: SpaceGrotesk-Bold;  
+    letter-spacing: 4px;  
+}
+
+ul li a:hover {
+    background: #4433ff;
+    color: #000;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+    border-radius: 20px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+  }
+  .button a:hover {
+    background: #fff;
+    color: #4433ff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+
+
+/*********INTRO SECTION**********/
+/*********INTRO SECTION**********/
+/*********INTRO SECTION**********/
+  .intro_section{
+     padding-bottom: 10em;
+  }
+
+  .intro{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro_text h1{
+    font-size: 72px;
+    line-height: 90px;
+    font-weight: 700;
+    -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+             animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+    }
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .intro_image img{
+    width: 500px;
+    height: 500px;
+  }
+
+  .button-2 {
+    min-width: 130px;
+    height: 50px;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    left: 80px;
+    display: inline-block;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid #5938bd;
+    background: #5938bd;
+  }
+  .button-2:hover {
+    background: #fff;
+    color: #2c0b8e
+  }
+
+  .button-2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+
+  /***********ABOUT SECTION************/
+  /***********ABOUT SECTION************/
+  /***********ABOUT SECTION************/
+  .about_section{
+    padding-bottom: 5em;
+ }
+
+ .about{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .mypic{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+ }
+
+ .about_text p span {
+    color: #5938bd;
+    padding: 0 .3rem;
+    margin: 0 .3rem 0 0;
+    font-weight: 700;
+    font-family: SpaceGrotesk-Bold; 
+    border-radius: 8px;
+    font-size: 32px;
+    line-height: 1;
+ }
+
+
+ /************ SERVICE SECTION ************/
+ /************ SERVICE SECTION ************/
+ /************ SERVICE SECTION ************/
+
+ .service_section{
+    padding-bottom: 10em;
+ }
+
+ .service{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+ }
+
+ .service_box{
+    margin: 150px 15px;
+    padding: 7px 15px;
+ }
+
+ .service_image{
+    margin-top: -60px;
+ }
+
+ svg{
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+
+ @-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+
+/************** WORK SECTION ****************/
+/************** WORK SECTION ****************/
+/************** WORK SECTION ****************/
+.work_section{
+  padding-bottom: 10em;
+}
+
+.topper{
+  text-align: center;
+}
+
+
+
+  /**************** REPUTATION SECTION *******************/
+  /**************** REPUTATION SECTION *******************/
+  /**************** REPUTATION SECTION *******************/
+
+  #reputation h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.carousel-inner {
+    padding : 7% 25%;
+}
+
+.carousel-item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+.carousel-item{
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-item p{
+    font-size: large;
+}
+
+.carousel-item em{
+    float: right;
+}
+
+/******** FOOTER SECTION *********/
+/******** FOOTER SECTION *********/
+/******** FOOTER SECTION *********/
+ 
+  footer .row{
+   display: flex; 
+   flex-wrap: wrap;
+   padding: 30px 0px;
+ }
+ 
+ .row .column{
+   width: 50%;
+ }
+
+ .column ul{
+   list-style: none;
+ }
+ 
+ .column ul li:not(:last-child){
+   margin-bottom: 10px;
+ }
+ 
+ .column a{
+   text-decoration: none;
+   color: #fff;
+   display: block;
+   transition: all 0.3 ease ;
+ }
+ 
+ .column a:hover{
+   color: #6D6D6D;
+   padding-left: 10px;
+   background-color: #5938bd;
+ }
+ 
+ .column li{
+   font-weight: 500;
+   font-size: 14px;
+   display: flex;
+ }
+ 
+ .column h6{
+   font-weight: 500;
+   font-size: 12px;
+   color: #6D6D6D;
+ }
+ 
+ .social{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin: 20px 20px 0px 20px;
+ }
+ 
+ .social:hover{
+   padding: 5px;
+ }
+
+ .list{
+  display: flex;
+  flex-direction: row;
+ }
+
+ .column .icon{
+  width: 20px;
+  height: 20px;
+ }
+
+ .down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  font-style: italic;
+ }
+
+
+
+
+  /**********MEDIA QUERIES******************/
+  /**********MEDIA QUERIES******************/
+  /**********MEDIA QUERIES******************/
+
+  /* PHONE SCREENS */
+  @media only screen and (max-width: 600px) {
+
+    *{
+        overflow-x: hidden;
+    }
+    /*********INTRO SECTION**********/
+
+    .intro{
+        flex-direction: column-reverse;
+    }
+
+    .intro_text h1{
+        font-size: 42px;
+        line-height: 70px;
+    }
+
+    .intro_image img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .vector{
+        display: none;
+    }
+    
+    /***********ABOUT SECTION************/
+
+    .about{
+        flex-direction: column;
+    }
+
+    /************ SERVICE SECTION ************/
+
+    .service{
+        margin-top: 300px;
+    }
+
+    .service_image svg{
+      margin-top: 50px;
+     }
+}
+
+/* TABLET SCREEN */
+@media only screen and (max-width: 900px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /********** NAV SECTION**********/
+    ul li .nav-link{
+        font-size: smaller;
+    }
+
+    .navbar .button{
+        font-size: smaller;
+    }
+    .navbar{
+        margin: 0;
+    }
+
+     /*********INTRO SECTION**********/
+
+    .intro_text h1{
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .intro_text p{
+        font-size: small;
+    }
+
+    .intro_image img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .button-2 {
+        min-width: 100px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        left: 5px;
+        font-weight: bold;
+        font-size: small;
+       
+    }
+
+    /***********ABOUT SECTION************/
+
+    .mypic{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-bottom: 10%;
+    }
+
+
+    /************ SERVICE SECTION ************/
+
+    .service{
+        display: block;
+        margin-top: 200px;
+    }
+
+    .service_box{
+        margin: 50px 15px;
+        text-align: center;
+    }
+
+   
+
+     /**************** REPUTATION SECTION *************/
+
+    .carousel-item img{
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      margin-bottom: 25px;
+      object-fit: cover;
+  }
+
+  .carousel-item p{
+    font-size: medium;
+    text-align: left;
+}
+    /******** FOOTER SECTION *********/
+
+    footer .row{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row .column{
+      width: 100%;
+    }
+
+}
+  
